@@ -11,8 +11,11 @@
     
 body{
     background-image: linear-gradient(to right, #50E2F2, #50D4F2, #2D9DC2);
+    width: 100%;
 }
 main{
+    display: block;
+    max-width: 100%;
     background-color: #a9f0f0;
     box-shadow: 5px 10px 15px #34909b;
     width: 800px;
@@ -22,12 +25,37 @@ main{
     font-size: 1em;
     font-style: normal;
     border-radius: 40px;
+    
 }
 h1{
     font-family: 'flavin';
     font-size: 2em;
     color: #A63793;
+    width: 100%;
 }
 h2{
     color: #C04CA7;
+    width: 100%;
+}
+
+main section{
+    width: 100%;
+    background-color: #a8bdbd3f;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.camisa1{
+    width: 100%;
+    height: 100%;
+    
+}
+
+img{
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    
 }
